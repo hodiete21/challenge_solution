@@ -1,5 +1,5 @@
 
-#Challenge Solution#
+# Challenge Solution
 
 `Step 1`. Solve this:
 
