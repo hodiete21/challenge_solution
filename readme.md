@@ -28,7 +28,7 @@ Answer question abc (optional), and let us know what your favourite snack is!
   3. EJS
   4. Filesystem module
 
- The `/index` page shows the number of emails and their fav snacks 
+ The `/` page shows the number of emails and their fav snacks 
  The `/shop` page answers 1, 2, and 3.
 
 
