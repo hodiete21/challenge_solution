@@ -1,0 +1,16 @@
+<h1> List of <%=data.length %> Emails and their Favourite snacks </h1>
+
+<table>
+	<th> Fave Snack </th>
+	<th> Email </th>
+	<% data.forEach(function (product){ %>
+		<tr>
+			<td>
+			<%=product.fave_snack %> 
+			</td>
+			<td>
+			<%= product.email%>
+			</td>
+		</tr>
+	<%})%>
+</table>

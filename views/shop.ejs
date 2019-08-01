@@ -1,0 +1,25 @@
+<h1> Real stocked snacks</h1>
+<table>
+	<th>Email </th>
+	<th> Snack</th>
+	<% snackers.forEach(function(snacks){ %>
+		<% product['products'].forEach(function(productType){ %>
+			<% if(snacks.fave_snack === productType.title){ %>
+		<tr>
+	    	<td>
+	       	<%= snacks.email %> 
+	        </td>
+	       	<td>
+	        <%= snacks.fave_snack %> - <%=productType.variants[0].price%>
+	        <% totalCost= totalCost+Number(productType.variants[0].price)%>
+	     	</td>
+	        <% totalSnack++ %>
+	    </tr>
+	   		 <% } %> 
+		<%}); %>
+	<%}); %>
+</table>
+
+ <p> Total Snacks: <%=totalSnack%></p> 
+ <p> Total Cost : $<%=totalCost%></p> 
+ <p> My Favourite Snacks are Almonds</p>
