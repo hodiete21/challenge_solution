@@ -8,7 +8,7 @@ var express = require('express'),
 	snackers= JSON.parse(snackersData),
 	totalSnack=0,
 	totalCost=0,
-	port = 3000||process.env.PORT;
+	port =  process.env.PORT||3000;
 
 app.set ('view engine', 'ejs'); 
 app.use(function(req, res, next){
