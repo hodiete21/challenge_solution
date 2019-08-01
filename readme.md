@@ -29,7 +29,7 @@ Answer question abc (optional), and let us know what your favourite snack is!
   4. Filesystem module
 
  The `/index` page shows the number of emails and their fav snacks 
- The `/shop` page answers a, b, and c.
+ The `/shop` page answers 1, 2, and 3.
 
 
 Pipeline build created in heroku available here: 
