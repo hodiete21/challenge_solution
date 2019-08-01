@@ -10,7 +10,7 @@
 	       	<%= snacks.email %> 
 	        </td>
 	       	<td>
-	        <%= snacks.fave_snack %> - <%=productType.variants[0].price%>
+	        <%= snacks.fave_snack %> - $<%=productType.variants[0].price%>
 	        <% totalCost= totalCost+Number(productType.variants[0].price)%>
 	     	</td>
 	        <% totalSnack++ %>
